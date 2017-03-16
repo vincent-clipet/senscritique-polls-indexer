@@ -1,0 +1,19 @@
+development:
+  adapter: mysql
+  encoding: utf8
+  reconnect: false
+  database: sc_polls_dev
+  pool: 5
+  username: root
+  password:
+  # socket: /var/run/mysqld/mysqld.sock
+
+production:
+  adapter: mysql
+  encoding: utf8
+  reconnect: false
+  database: sc_polls_prod
+  pool: 5
+  username: root
+  password:
+  # socket: /var/run/mysqld/mysqld.sock
